@@ -1,0 +1,67 @@
+.chatWindow {
+  display: grid;
+  grid-column-start: 2;
+  grid-column-end: 9;
+  grid-row-start: 1;
+  grid-row-end: 190;
+  background: rgb(233, 229, 229);
+  border-radius: 5px;
+}
+
+.chat {
+  list-style: none;
+  background: none;
+  margin: 0;
+  padding: 0 0 50px 0;
+  margin-top: 60px;
+  margin-bottom: 10px;
+  max-height: 400px;
+  overflow: scroll;
+}
+
+.chatInputWrapper {
+  display: grid;
+  grid-row-start: 190;
+  grid-row-end: 190;
+}
+
+Img {
+  overflow: hidden;
+  border-radius: 50%;
+  width: 2em;
+  height: 2em;
+  &:hover {
+    border-color: #16d2aa;
+    box-shadow: 0px 0px 14px 0.3px #16d2aa;
+    cursor: pointer;
+  }
+}
+
+.submitBtn {
+  background-color: #16d2aa;
+  color: #f6f6f6;
+  font-size: 12px;
+  padding: 8px 50px;
+  font-weight: 600;
+  text-transform: uppercase;
+  height: 3rem;
+  width: 2rem;
+  padding: 0.65rem;
+  border-width: initial;
+  border-style: none;
+  border-color: initial;
+  border-image: initial;
+  border-radius: 20px;
+  transition: all 250ms ease-in-out;
+  cursor: pointer;
+  &:hover {
+    background-color: #00af89;
+  }
+  &:focus {
+    outline: none;
+  }
+}
+
+.ant-comment {
+  margin: 2em 1em;
+}

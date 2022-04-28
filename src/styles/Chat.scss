@@ -1,0 +1,30 @@
+.chatWrapper {
+  position: fixed;
+  top: 20%;
+  left: 50%;
+  display: inline-block;
+  overflow: scroll;
+}
+
+.chatButton {
+  background-color: #16d2aa;
+  color: #f6f6f6;
+  font-size: 12px;
+  padding: 8px 50px;
+  font-weight: 600;
+  text-transform: uppercase;
+  width: 12rem;
+  border-width: initial;
+  border-style: none;
+  border-color: initial;
+  border-image: initial;
+  border-radius: 20px;
+  transition: all 250ms ease-in-out;
+  cursor: pointer;
+  &:hover {
+    background-color: #29a389;
+    border: 1px solid #29a389;
+    box-shadow: 0 0 2px #29a389;
+    cursor: pointer;
+  }
+}
