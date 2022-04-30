@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { ThemeProvider as EmotionThemeProvider } from "emotion-theming";
-import theme from "./Theme.js";
+import theme from "./Theme.js.js";
 
 const defaultContextData = {
   dark: false,
